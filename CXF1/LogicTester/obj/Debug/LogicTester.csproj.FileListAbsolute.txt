@@ -1,0 +1,10 @@
+C:\User\Projects\Practice\Xamarin\CXF1\LogicTester\bin\Debug\LogicTester.exe.config
+C:\User\Projects\Practice\Xamarin\CXF1\LogicTester\bin\Debug\LogicTester.exe
+C:\User\Projects\Practice\Xamarin\CXF1\LogicTester\bin\Debug\LogicTester.pdb
+C:\User\Projects\Practice\Xamarin\CXF1\LogicTester\obj\Debug\LogicTester.csprojAssemblyReference.cache
+C:\User\Projects\Practice\Xamarin\CXF1\LogicTester\obj\Debug\LogicTester.Form1.resources
+C:\User\Projects\Practice\Xamarin\CXF1\LogicTester\obj\Debug\LogicTester.Properties.Resources.resources
+C:\User\Projects\Practice\Xamarin\CXF1\LogicTester\obj\Debug\LogicTester.csproj.GenerateResource.cache
+C:\User\Projects\Practice\Xamarin\CXF1\LogicTester\obj\Debug\LogicTester.csproj.CoreCompileInputs.cache
+C:\User\Projects\Practice\Xamarin\CXF1\LogicTester\obj\Debug\LogicTester.exe
+C:\User\Projects\Practice\Xamarin\CXF1\LogicTester\obj\Debug\LogicTester.pdb

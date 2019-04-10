@@ -4,22 +4,23 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using System.Web.Http;
+using Newtonsoft.Json;
 
 namespace WebAPI1.Controllers
 {
     public class HomeController : ApiController
     {
-        public string GetString()
-        {
-            return "This is message from web service (api/Home/GetString/)";
-        }
+        //public string GetString()
+        //{
+        //    return "This is message from web service (api/Home/GetString/)";
+        //}
         //public int GetInt()
         //{
         //    return 777;
         //}
-        public WebAPIClass GetWebAPIClass()
+        public string Get()
         {
-            return new WebAPIClass();
+            return JsonConvert.SerializeObject(new WebAPIClass());
         }
     }
     public class WebAPIClass

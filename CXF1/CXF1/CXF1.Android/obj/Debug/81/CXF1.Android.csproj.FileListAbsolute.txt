@@ -103,4 +103,6 @@ C:\User\Projects\Practice\Xamarin\CXF1\CXF1\CXF1.Android\obj\Debug\81\android\as
 C:\User\Projects\Practice\Xamarin\CXF1\CXF1\CXF1.Android\obj\Debug\81\android\assets\Xamarin.Forms.Core.pdb
 C:\User\Projects\Practice\Xamarin\CXF1\CXF1\CXF1.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.Android.pdb
 C:\User\Projects\Practice\Xamarin\CXF1\CXF1\CXF1.Android\obj\Debug\81\android\assets\Xamarin.Forms.Xaml.pdb
+C:\User\Projects\Practice\Xamarin\CXF1\CXF1\CXF1\bin\Debug\netstandard2.0\CXF1.dll
+C:\User\Projects\Practice\Xamarin\CXF1\CXF1\CXF1.Android\bin\Debug\CXF1.dll.mdb
 C:\User\Projects\Practice\Xamarin\CXF1\CXF1\CXF1.Android\obj\Debug\81\linksrc\CXF1.dll.mdb

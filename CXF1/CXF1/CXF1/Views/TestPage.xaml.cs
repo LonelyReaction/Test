@@ -33,11 +33,13 @@ namespace CXF1.Views
                 client.DefaultRequestHeaders.Accept.Add(new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"));
                 //returnValue = client.GetStringAsync("api/Home/GetData/").GetAwaiter().GetResult();
 
-                var response = client.GetStringAsync("api/Home/GetString/").GetAwaiter().GetResult();
-                returnValue = response.ToString();
+                //var response = client.GetStringAsync("api/Home/GetString/").GetAwaiter().GetResult();
+                //returnValue = response.ToString();
 
-                //var response = await client.GetAsync("api/Home/GetString/");
-                //returnValue = JsonConvert.DeserializeObject(response.Content.ReadAsStringAsync().Result).ToString();
+                var response = client.GetStringAsync("api/Home").GetAwaiter().GetResult();
+                //var webAPIClass = JsonConvert.DeserializeObject<WebAPIClass>(response);
+                //returnValue = string.Format("{0}/{1:yyyy/MM/dd HH:mm:ss}/{2}", webAPIClass.StringData, webAPIClass.TimeData, webAPIClass.IntData);
+                returnValue = response;
 
                 //HttpResponseMessage response = client.GetAsync("api/Home/GetWebAPIClass/").Result;
                 //returnValue = response.Content.ReadAsAsync<WebAPIClass>().Result;
@@ -72,14 +74,8 @@ namespace CXF1.Views
     }
     public class WebAPIClass
     {
-        public string StringData { get; private set; }
-        public int IntData { get; private set; }
-        public DateTime TimeData { get; private set; }
-        public WebAPIClass()
-        {
-            this.StringData = "This is message from web service (api/Home/GetWebAPIClass/)";
-            this.IntData = 777;
-            this.TimeData = DateTime.Now;
-        }
+        public string StringData;
+        public int IntData;
+        public DateTime TimeData;
     }
 }

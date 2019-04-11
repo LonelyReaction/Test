@@ -1,0 +1,10 @@
+C:\User\Projects\Practice\Xamarin\CXF1\CXF1\CXF1.MobileAppService\bin\Debug\netcoreapp2.0\CXF1.MobileAppService.deps.json
+C:\User\Projects\Practice\Xamarin\CXF1\CXF1\CXF1.MobileAppService\bin\Debug\netcoreapp2.0\CXF1.MobileAppService.runtimeconfig.json
+C:\User\Projects\Practice\Xamarin\CXF1\CXF1\CXF1.MobileAppService\bin\Debug\netcoreapp2.0\CXF1.MobileAppService.runtimeconfig.dev.json
+C:\User\Projects\Practice\Xamarin\CXF1\CXF1\CXF1.MobileAppService\bin\Debug\netcoreapp2.0\CXF1.MobileAppService.dll
+C:\User\Projects\Practice\Xamarin\CXF1\CXF1\CXF1.MobileAppService\bin\Debug\netcoreapp2.0\CXF1.MobileAppService.pdb
+C:\User\Projects\Practice\Xamarin\CXF1\CXF1\CXF1.MobileAppService\obj\Debug\netcoreapp2.0\CXF1.MobileAppService.csproj.CoreCompileInputs.cache
+C:\User\Projects\Practice\Xamarin\CXF1\CXF1\CXF1.MobileAppService\obj\Debug\netcoreapp2.0\CXF1.MobileAppService.AssemblyInfoInputs.cache
+C:\User\Projects\Practice\Xamarin\CXF1\CXF1\CXF1.MobileAppService\obj\Debug\netcoreapp2.0\CXF1.MobileAppService.AssemblyInfo.cs
+C:\User\Projects\Practice\Xamarin\CXF1\CXF1\CXF1.MobileAppService\obj\Debug\netcoreapp2.0\CXF1.MobileAppService.dll
+C:\User\Projects\Practice\Xamarin\CXF1\CXF1\CXF1.MobileAppService\obj\Debug\netcoreapp2.0\CXF1.MobileAppService.pdb

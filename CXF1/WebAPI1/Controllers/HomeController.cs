@@ -18,9 +18,13 @@ namespace WebAPI1.Controllers
         //{
         //    return 777;
         //}
-        public string Get()
+        //public string Get()
+        //{
+        //    return JsonConvert.SerializeObject(new WebAPIClass());
+        //}
+        public WebAPIClass Get()
         {
-            return JsonConvert.SerializeObject(new WebAPIClass());
+            return new WebAPIClass();
         }
     }
     public class WebAPIClass
@@ -30,7 +34,7 @@ namespace WebAPI1.Controllers
         public DateTime TimeData { get; private set; }
         public WebAPIClass()
         {
-            this.StringData = "This is message from web service (api/Home/GetWebAPIClass/)";
+            this.StringData = "This is message from web service (Get)";
             this.IntData = 777;
             this.TimeData = DateTime.Now;
         }

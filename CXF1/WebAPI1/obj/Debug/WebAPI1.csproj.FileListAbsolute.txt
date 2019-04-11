@@ -93,3 +93,4 @@ C:\User\Projects\Practice\Xamarin\CXF1\WebAPI1\obj\Debug\WebAPI1.csproj.CoreComp
 C:\User\Projects\Practice\Xamarin\CXF1\WebAPI1\obj\Debug\WebAPI1.csproj.CopyComplete
 C:\User\Projects\Practice\Xamarin\CXF1\WebAPI1\obj\Debug\WebAPI1.dll
 C:\User\Projects\Practice\Xamarin\CXF1\WebAPI1\obj\Debug\WebAPI1.pdb
+C:\User\Projects\Practice\Xamarin\CXF1\WebAPI1\obj\Debug\WebAPI1.csprojAssemblyReference.cache

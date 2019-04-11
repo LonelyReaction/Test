@@ -27,19 +27,29 @@ namespace CXF1.Views
             string returnValue = null;
             using (HttpClient client = new HttpClient())
             {
-                client.BaseAddress = new Uri("http://192.168.3.191/WebService/");
-                client.DefaultRequestHeaders.Accept.Clear();
+                //client.BaseAddress = new Uri("http://192.168.3.191/WebService/");
+                //client.DefaultRequestHeaders.Accept.Clear();
                 //client.DefaultRequestHeaders.Accept.Add(new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/xml"));
-                client.DefaultRequestHeaders.Accept.Add(new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"));
+                //client.DefaultRequestHeaders.Accept.Add(new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"));
                 //returnValue = client.GetStringAsync("api/Home/GetData/").GetAwaiter().GetResult();
 
                 //var response = client.GetStringAsync("api/Home/GetString/").GetAwaiter().GetResult();
                 //returnValue = response.ToString();
 
-                var response = client.GetStringAsync("api/Home").GetAwaiter().GetResult();
-                //var webAPIClass = JsonConvert.DeserializeObject<WebAPIClass>(response);
-                //returnValue = string.Format("{0}/{1:yyyy/MM/dd HH:mm:ss}/{2}", webAPIClass.StringData, webAPIClass.TimeData, webAPIClass.IntData);
-                returnValue = response;
+                //var response = client.GetStringAsync("api/Home/").GetAwaiter().GetResult();
+
+                //string queryString = "http://api.thni.net/jzip/X0401/JSON/520/0863.js";
+                string queryString = "http://192.168.3.191/WebService/api/Home/";
+                var response = client.GetAsync(queryString).GetAwaiter().GetResult();
+                string jsonText = response.Content.ReadAsStringAsync().Result;
+                //jsonText = "{ \"StringData\":\"This is message from web service (Get)\", \"IntData\":777 }";
+                //jsonText = "{ \"state\":\"25\", \"stateName\":\"滋賀県\", \"city\":\"大津市\", \"street\":\"千町\" }";
+
+                //var webAPIClass = JsonConvert.DeserializeObject<WebAPIClass>(response, new JsonSerializerSettings { NullValueHandling = NullValueHandling.Ignore });
+                var webAPIClass = JsonConvert.DeserializeObject<WebAPIClass>(jsonText);
+                returnValue = $"{webAPIClass.StringData}/{webAPIClass.TimeData:yyyy/MM/dd HH:mm:ss}/{webAPIClass.IntData}";
+                //returnValue = $"{webAPIClass.StringData}/{webAPIClass.IntData}";
+                //returnValue = response;
 
                 //HttpResponseMessage response = client.GetAsync("api/Home/GetWebAPIClass/").Result;
                 //returnValue = response.Content.ReadAsAsync<WebAPIClass>().Result;
@@ -72,10 +82,17 @@ namespace CXF1.Views
             return returnValue;
         }
     }
-    public class WebAPIClass
+    // Type created for JSON at <<root>>
+    [JsonObject(MemberSerialization = MemberSerialization.OptIn)]
+    public partial class WebAPIClass
     {
+        [JsonProperty("StringData")]
         public string StringData;
+
+        [JsonProperty("IntData")]
         public int IntData;
+
+        [JsonProperty("TimeData")]
         public DateTime TimeData;
     }
 }

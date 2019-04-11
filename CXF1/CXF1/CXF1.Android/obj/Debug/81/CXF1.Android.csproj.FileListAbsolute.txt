@@ -38,6 +38,7 @@ C:\User\Projects\Practice\Xamarin\CXF1\CXF1\CXF1.Android\obj\Debug\81\uploadflag
 C:\User\Projects\Practice\Xamarin\CXF1\CXF1\CXF1.Android\bin\Debug\FormsViewGroup.pdb
 C:\User\Projects\Practice\Xamarin\CXF1\CXF1\CXF1.Android\bin\Debug\Mono.Android.pdb
 C:\User\Projects\Practice\Xamarin\CXF1\CXF1\CXF1.Android\bin\Debug\mscorlib.pdb
+C:\User\Projects\Practice\Xamarin\CXF1\CXF1\CXF1.Android\bin\Debug\Newtonsoft.Json.pdb
 C:\User\Projects\Practice\Xamarin\CXF1\CXF1\CXF1.Android\bin\Debug\System.Core.pdb
 C:\User\Projects\Practice\Xamarin\CXF1\CXF1\CXF1.Android\bin\Debug\System.pdb
 C:\User\Projects\Practice\Xamarin\CXF1\CXF1\CXF1.Android\bin\Debug\System.Xml.pdb
@@ -60,6 +61,7 @@ C:\User\Projects\Practice\Xamarin\CXF1\CXF1\CXF1.Android\obj\Debug\81\linksrc\CX
 C:\User\Projects\Practice\Xamarin\CXF1\CXF1\CXF1.Android\obj\Debug\81\linksrc\FormsViewGroup.pdb
 C:\User\Projects\Practice\Xamarin\CXF1\CXF1\CXF1.Android\obj\Debug\81\linksrc\Mono.Android.pdb
 C:\User\Projects\Practice\Xamarin\CXF1\CXF1\CXF1.Android\obj\Debug\81\linksrc\mscorlib.pdb
+C:\User\Projects\Practice\Xamarin\CXF1\CXF1\CXF1.Android\obj\Debug\81\linksrc\Newtonsoft.Json.pdb
 C:\User\Projects\Practice\Xamarin\CXF1\CXF1\CXF1.Android\obj\Debug\81\linksrc\System.Core.pdb
 C:\User\Projects\Practice\Xamarin\CXF1\CXF1\CXF1.Android\obj\Debug\81\linksrc\System.pdb
 C:\User\Projects\Practice\Xamarin\CXF1\CXF1\CXF1.Android\obj\Debug\81\linksrc\System.Xml.pdb
@@ -86,6 +88,7 @@ C:\User\Projects\Practice\Xamarin\CXF1\CXF1\CXF1.Android\obj\Debug\81\android\as
 C:\User\Projects\Practice\Xamarin\CXF1\CXF1\CXF1.Android\obj\Debug\81\android\assets\Mono.Android.pdb
 C:\User\Projects\Practice\Xamarin\CXF1\CXF1\CXF1.Android\obj\Debug\81\android\assets\Mono.Security.pdb
 C:\User\Projects\Practice\Xamarin\CXF1\CXF1\CXF1.Android\obj\Debug\81\android\assets\mscorlib.pdb
+C:\User\Projects\Practice\Xamarin\CXF1\CXF1\CXF1.Android\obj\Debug\81\android\assets\Newtonsoft.Json.pdb
 C:\User\Projects\Practice\Xamarin\CXF1\CXF1\CXF1.Android\obj\Debug\81\android\assets\System.ComponentModel.Composition.pdb
 C:\User\Projects\Practice\Xamarin\CXF1\CXF1\CXF1.Android\obj\Debug\81\android\assets\System.Core.pdb
 C:\User\Projects\Practice\Xamarin\CXF1\CXF1\CXF1.Android\obj\Debug\81\android\assets\System.Data.pdb

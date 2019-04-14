@@ -11,6 +11,7 @@
         "dependencies": {
           "NETStandard.Library": "2.0.3",
           "Newtonsoft.Json": "12.0.1",
+          "WebAPIModels": "1.0.0",
           "Xamarin.Forms": "3.6.0.293080"
         },
         "runtime": {
@@ -45,6 +46,11 @@
             "assemblyVersion": "2.0.0.0",
             "fileVersion": "2.0.0.0"
           }
+        }
+      },
+      "WebAPIModels/1.0.0": {
+        "runtime": {
+          "WebAPIModels.dll": {}
         }
       }
     }
@@ -82,6 +88,11 @@
       "sha512": "sha512-5o6pS3kbFwWDiTpywz0UasLwn9Ay5/1eGH8JWXBV0N2lDkZauOgTZaMIE/Rdjz2bLhMturwzI1/DFuNxdSidFw==",
       "path": "xamarin.forms/3.6.0.293080",
       "hashPath": "xamarin.forms.3.6.0.293080.nupkg.sha512"
+    },
+    "WebAPIModels/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

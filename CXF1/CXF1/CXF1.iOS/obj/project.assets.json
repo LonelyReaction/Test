@@ -139,6 +139,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "12.0.1",
+          "WebAPIModels": "1.0.0",
           "Xamarin.Forms": "3.6.0.293080"
         },
         "compile": {
@@ -146,6 +147,15 @@
         },
         "runtime": {
           "bin/placeholder/CXF1.dll": {}
+        }
+      },
+      "WebAPIModels/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/WebAPIModels.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WebAPIModels.dll": {}
         }
       }
     },
@@ -287,6 +297,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "12.0.1",
+          "WebAPIModels": "1.0.0",
           "Xamarin.Forms": "3.6.0.293080"
         },
         "compile": {
@@ -294,6 +305,15 @@
         },
         "runtime": {
           "bin/placeholder/CXF1.dll": {}
+        }
+      },
+      "WebAPIModels/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/WebAPIModels.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WebAPIModels.dll": {}
         }
       }
     },
@@ -435,6 +455,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "12.0.1",
+          "WebAPIModels": "1.0.0",
           "Xamarin.Forms": "3.6.0.293080"
         },
         "compile": {
@@ -442,6 +463,15 @@
         },
         "runtime": {
           "bin/placeholder/CXF1.dll": {}
+        }
+      },
+      "WebAPIModels/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/WebAPIModels.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WebAPIModels.dll": {}
         }
       }
     },
@@ -583,6 +613,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "12.0.1",
+          "WebAPIModels": "1.0.0",
           "Xamarin.Forms": "3.6.0.293080"
         },
         "compile": {
@@ -590,6 +621,15 @@
         },
         "runtime": {
           "bin/placeholder/CXF1.dll": {}
+        }
+      },
+      "WebAPIModels/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/WebAPIModels.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WebAPIModels.dll": {}
         }
       }
     }
@@ -803,6 +843,11 @@
       "type": "project",
       "path": "../CXF1/CXF1.csproj",
       "msbuildProject": "../CXF1/CXF1.csproj"
+    },
+    "WebAPIModels/1.0.0": {
+      "type": "project",
+      "path": "../../WebAPIModels/WebAPIModels.csproj",
+      "msbuildProject": "../../WebAPIModels/WebAPIModels.csproj"
     }
   },
   "projectFileDependencyGroups": {

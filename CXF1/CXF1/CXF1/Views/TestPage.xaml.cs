@@ -7,6 +7,7 @@ using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using System.Net.Http;
 using Newtonsoft.Json;
+using WebAPIModels;
 
 namespace CXF1.Views
 {
@@ -15,14 +16,30 @@ namespace CXF1.Views
 	{
 		public TestPage ()
 		{
-			InitializeComponent ();
+            InitializeComponent ();
             this.lblMessage1.Text = "※※※TestData①※※※";  //TestPage.GetTest();
             this.lblMessage2.Text = "※※※TestData②※※※";  //TestPage.GetTest();
             this.lblMessage3.Text = "※※※TestData③※※※";  //TestPage.GetTest();
-            this.lblMessage2.Text = TestPage.GetTest();
+            //this.lblMessage1.Text = TestPage.GetTest();
+            //this.lblMessage2.Text = TestPage.GetTest(123);
+            //this.lblMessage3.Text = TestPage.GetTest(123, 210);
+            var list = GetList();
+            this.lblMessage1.Text = list[0].ToString();
+            this.lblMessage2.Text = list[1].ToString();
+            this.lblMessage3.Text = list[2].ToString();
         }
         public string DataText { get; set; }
-        public static string GetTest()
+        public static List<WebAPIClass> GetList()
+        {
+            using (HttpClient client = new HttpClient())
+            {
+                string queryString = $"http://192.168.3.191/WebService/api/Home/List";
+                var response = client.GetAsync(queryString).GetAwaiter().GetResult();
+                string jsonText = response.Content.ReadAsStringAsync().Result;
+                return JsonConvert.DeserializeObject<List<WebAPIClass>>(jsonText);
+            }
+        }
+        public static string GetTest(int id1 = 0, int id2 = 0)
         {
             string returnValue = null;
             using (HttpClient client = new HttpClient())
@@ -39,7 +56,11 @@ namespace CXF1.Views
                 //var response = client.GetStringAsync("api/Home/").GetAwaiter().GetResult();
 
                 //string queryString = "http://api.thni.net/jzip/X0401/JSON/520/0863.js";
-                string queryString = "http://192.168.3.191/WebService/api/Home/";
+                string queryString;
+                if ((id1 <= 0) && (id2 <= 0))
+                    queryString = $"http://192.168.3.191/WebService/api/Home";
+                else
+                    queryString = $"http://192.168.3.191/WebService/api/Home/{id1 + id2}";
                 var response = client.GetAsync(queryString).GetAwaiter().GetResult();
                 string jsonText = response.Content.ReadAsStringAsync().Result;
                 //jsonText = "{ \"StringData\":\"This is message from web service (Get)\", \"IntData\":777 }";
@@ -82,17 +103,11 @@ namespace CXF1.Views
             return returnValue;
         }
     }
-    // Type created for JSON at <<root>>
-    [JsonObject(MemberSerialization = MemberSerialization.OptIn)]
-    public partial class WebAPIClass
+    public class WebAPIClass : WebAPIClassBaseModel
     {
-        [JsonProperty("StringData")]
-        public string StringData;
-
-        [JsonProperty("IntData")]
-        public int IntData;
-
-        [JsonProperty("TimeData")]
-        public DateTime TimeData;
+        public override string ToString()
+        {
+            return $"This is NewType.\r\n{this.StringData}/{this.TimeData:yyyy/MM/dd HH:mm:ss}/{this.IntData}";
+        }
     }
 }

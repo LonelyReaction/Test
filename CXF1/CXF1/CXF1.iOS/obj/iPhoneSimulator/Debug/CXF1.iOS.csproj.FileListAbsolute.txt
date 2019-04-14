@@ -57,3 +57,5 @@ C:\User\Projects\Practice\Xamarin\CXF1\CXF1\CXF1.iOS\obj\iPhoneSimulator\Debug\X
 C:\User\Projects\Practice\Xamarin\CXF1\CXF1\CXF1.iOS\obj\iPhoneSimulator\Debug\CXF1.iOS.csproj.CopyComplete
 C:\User\Projects\Practice\Xamarin\CXF1\CXF1\CXF1.iOS\obj\iPhoneSimulator\Debug\CXF1.iOS.exe
 C:\User\Projects\Practice\Xamarin\CXF1\CXF1\CXF1.iOS\obj\iPhoneSimulator\Debug\CXF1.iOS.pdb
+C:\User\Projects\Practice\Xamarin\CXF1\CXF1\CXF1.iOS\bin\iPhoneSimulator\Debug\WebAPIModels.dll
+C:\User\Projects\Practice\Xamarin\CXF1\CXF1\CXF1.iOS\bin\iPhoneSimulator\Debug\WebAPIModels.pdb

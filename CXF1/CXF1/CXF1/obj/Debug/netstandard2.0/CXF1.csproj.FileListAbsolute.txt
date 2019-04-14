@@ -16,3 +16,6 @@ C:\User\Projects\Practice\Xamarin\CXF1\CXF1\CXF1\obj\Debug\netstandard2.0\CXF1.A
 C:\User\Projects\Practice\Xamarin\CXF1\CXF1\CXF1\obj\Debug\netstandard2.0\XamlC.stamp
 C:\User\Projects\Practice\Xamarin\CXF1\CXF1\CXF1\obj\Debug\netstandard2.0\CXF1.dll
 C:\User\Projects\Practice\Xamarin\CXF1\CXF1\CXF1\obj\Debug\netstandard2.0\CXF1.pdb
+C:\User\Projects\Practice\Xamarin\CXF1\CXF1\CXF1\bin\Debug\netstandard2.0\WebAPIModels.dll
+C:\User\Projects\Practice\Xamarin\CXF1\CXF1\CXF1\bin\Debug\netstandard2.0\WebAPIModels.pdb
+C:\User\Projects\Practice\Xamarin\CXF1\CXF1\CXF1\obj\Debug\netstandard2.0\CXF1.csproj.CopyComplete

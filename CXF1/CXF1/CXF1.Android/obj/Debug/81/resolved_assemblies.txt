@@ -43,4 +43,5 @@ C:\User\Projects\Practice\Xamarin\CXF1\CXF1\CXF1.Android\obj\Debug\81\android\as
 C:\User\Projects\Practice\Xamarin\CXF1\CXF1\CXF1.Android\obj\Debug\81\android\assets\System.Runtime.Serialization.dll
 C:\User\Projects\Practice\Xamarin\CXF1\CXF1\CXF1.Android\obj\Debug\81\android\assets\System.ServiceModel.Internals.dll
 C:\User\Projects\Practice\Xamarin\CXF1\CXF1\CXF1.Android\obj\Debug\81\android\assets\System.Web.Services.dll
+C:\User\Projects\Practice\Xamarin\CXF1\CXF1\CXF1.Android\obj\Debug\81\android\assets\WebAPIModels.dll
 C:\User\Projects\Practice\Xamarin\CXF1\CXF1\CXF1.Android\obj\Debug\81\android\assets\Mono.Security.dll

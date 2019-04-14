@@ -1,37 +1,39 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
 using System.Web.Http;
-using Newtonsoft.Json;
+using System.Collections.Generic;
+using WebAPIModels;
 
 namespace WebAPI1.Controllers
 {
     public class HomeController : ApiController
     {
-        //public string GetString()
-        //{
-        //    return "This is message from web service (api/Home/GetString/)";
-        //}
-        //public int GetInt()
-        //{
-        //    return 777;
-        //}
-        //public string Get()
-        //{
-        //    return JsonConvert.SerializeObject(new WebAPIClass());
-        //}
+        [HttpGet]
+        [Route("api/Home")]
         public WebAPIClass Get()
         {
             return new WebAPIClass();
         }
+        [HttpGet]
+        [Route("api/Home/{id}")]
+        public WebAPIClass GetWithID(int id)
+        {
+            return new WebAPIClass(id);
+        }
+        [HttpGet]
+        [Route("api/Home/List")]
+        public List<WebAPIClass> GetList()
+        {
+            return new List<WebAPIClass> { new WebAPIClass(123), new WebAPIClass(456), new WebAPIClass(789) };
+        }
     }
-    public class WebAPIClass
+    public class WebAPIClass : WebAPIClassBaseModel
     {
-        public string StringData { get; private set;  }
-        public int IntData { get; private set; }
-        public DateTime TimeData { get; private set; }
+        public WebAPIClass(int id)
+        {
+            this.StringData = $"This is message from web service ({id * 2})";
+            this.IntData = id;
+            this.TimeData = DateTime.Now;
+        }
         public WebAPIClass()
         {
             this.StringData = "This is message from web service (Get)";

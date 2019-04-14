@@ -319,10 +319,16 @@
       <publishTime>11/28/2018 13:04:24</publishTime>
     </File>
     <File Include="bin/WebAPI1.dll">
-      <publishTime>04/11/2019 21:50:09</publishTime>
+      <publishTime>04/14/2019 13:42:29</publishTime>
     </File>
     <File Include="bin/WebAPI1.pdb">
-      <publishTime>04/11/2019 21:50:09</publishTime>
+      <publishTime>04/14/2019 13:42:29</publishTime>
+    </File>
+    <File Include="bin/WebAPIModels.dll">
+      <publishTime>04/14/2019 13:42:27</publishTime>
+    </File>
+    <File Include="bin/WebAPIModels.pdb">
+      <publishTime>04/14/2019 13:42:27</publishTime>
     </File>
     <File Include="bin/WebGrease.dll">
       <publishTime>01/23/2014 13:57:34</publishTime>
@@ -535,7 +541,7 @@
       <publishTime>03/10/2019 18:52:08</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>04/11/2019 21:14:53</publishTime>
+      <publishTime>04/14/2019 12:35:38</publishTime>
     </File>
   </ItemGroup>
 </Project>

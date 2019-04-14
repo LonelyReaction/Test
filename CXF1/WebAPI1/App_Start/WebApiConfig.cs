@@ -12,10 +12,10 @@ namespace WebAPI1
             // Web API の設定およびサービス
 
             // Web API ルート
-            config.MapHttpAttributeRoutes();
+            config.MapHttpAttributeRoutes();    //属性ルーティングを有効化
 
             config.Routes.MapHttpRoute(
-                name: "DefaultApi",
+                name: "route-001",
                 routeTemplate: "api/{controller}/{id}",
                 defaults: new { id = RouteParameter.Optional }
             );

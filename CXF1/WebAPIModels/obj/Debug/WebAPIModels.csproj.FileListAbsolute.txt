@@ -1,0 +1,9 @@
+C:\User\Projects\Practice\Xamarin\CXF1\WebAPIModels\bin\Debug\WebAPIModels.dll
+C:\User\Projects\Practice\Xamarin\CXF1\WebAPIModels\bin\Debug\WebAPIModels.pdb
+C:\User\Projects\Practice\Xamarin\CXF1\WebAPIModels\obj\Debug\WebAPIModels.csproj.CoreCompileInputs.cache
+C:\User\Projects\Practice\Xamarin\CXF1\WebAPIModels\obj\Debug\WebAPIModels.dll
+C:\User\Projects\Practice\Xamarin\CXF1\WebAPIModels\obj\Debug\WebAPIModels.pdb
+C:\User\Projects\Practice\Xamarin\CXF1\WebAPIModels\bin\Debug\Newtonsoft.Json.dll
+C:\User\Projects\Practice\Xamarin\CXF1\WebAPIModels\bin\Debug\Newtonsoft.Json.pdb
+C:\User\Projects\Practice\Xamarin\CXF1\WebAPIModels\bin\Debug\Newtonsoft.Json.xml
+C:\User\Projects\Practice\Xamarin\CXF1\WebAPIModels\obj\Debug\WebAPIModels.csproj.CopyComplete

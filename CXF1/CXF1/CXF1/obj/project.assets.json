@@ -51,6 +51,15 @@
           "build/Xamarin.Forms.props": {},
           "build/Xamarin.Forms.targets": {}
         }
+      },
+      "WebAPIModels/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/WebAPIModels.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WebAPIModels.dll": {}
+        }
       }
     }
   },
@@ -401,12 +410,18 @@
         "xamarin.forms.3.6.0.293080.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
+    },
+    "WebAPIModels/1.0.0": {
+      "type": "project",
+      "path": "../../WebAPIModels/WebAPIModels.csproj",
+      "msbuildProject": "../../WebAPIModels/WebAPIModels.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "NETStandard.Library >= 2.0.3",
       "Newtonsoft.Json >= 12.0.1",
+      "WebAPIModels >= 1.0.0",
       "Xamarin.Forms >= 3.6.0.293080"
     ]
   },
@@ -439,7 +454,11 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\User\\Projects\\Practice\\Xamarin\\CXF1\\WebAPIModels\\WebAPIModels.csproj": {
+              "projectPath": "C:\\User\\Projects\\Practice\\Xamarin\\CXF1\\WebAPIModels\\WebAPIModels.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

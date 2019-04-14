@@ -98,3 +98,5 @@ C:\User\Projects\Practice\Xamarin\CXF1\WebAPI1\bin\roslyn\System.Net.Sockets.dll
 C:\User\Projects\Practice\Xamarin\CXF1\WebAPI1\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
 C:\User\Projects\Practice\Xamarin\CXF1\WebAPI1\bin\roslyn\System.Threading.Tasks.Extensions.dll
 C:\User\Projects\Practice\Xamarin\CXF1\WebAPI1\bin\Newtonsoft.Json.pdb
+C:\User\Projects\Practice\Xamarin\CXF1\WebAPI1\bin\WebAPIModels.dll
+C:\User\Projects\Practice\Xamarin\CXF1\WebAPI1\bin\WebAPIModels.pdb

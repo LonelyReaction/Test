@@ -59,6 +59,8 @@ C:\User\Projects\Practice\Xamarin\CXF1\CXF1\CXF1.Android\bin\Debug\System.Runtim
 C:\User\Projects\Practice\Xamarin\CXF1\CXF1\CXF1.Android\bin\Debug\System.ServiceModel.Internals.pdb
 C:\User\Projects\Practice\Xamarin\CXF1\CXF1\CXF1.Android\bin\Debug\System.Web.Services.pdb
 C:\User\Projects\Practice\Xamarin\CXF1\CXF1\CXF1.Android\bin\Debug\Mono.Security.pdb
+C:\User\Projects\Practice\Xamarin\CXF1\CXF1\CXF1.Android\bin\Debug\CXF1.dll.mdb
+C:\User\Projects\Practice\Xamarin\CXF1\CXF1\CXF1.Android\bin\Debug\WebAPIModels.dll.mdb
 C:\User\Projects\Practice\Xamarin\CXF1\CXF1\CXF1.Android\obj\Debug\81\linksrc\CXF1.Android.pdb
 C:\User\Projects\Practice\Xamarin\CXF1\CXF1\CXF1.Android\obj\Debug\81\linksrc\FormsViewGroup.pdb
 C:\User\Projects\Practice\Xamarin\CXF1\CXF1\CXF1.Android\obj\Debug\81\linksrc\Mono.Android.pdb
@@ -82,10 +84,8 @@ C:\User\Projects\Practice\Xamarin\CXF1\CXF1\CXF1.Android\obj\Debug\81\linksrc\Sy
 C:\User\Projects\Practice\Xamarin\CXF1\CXF1\CXF1.Android\obj\Debug\81\linksrc\System.ServiceModel.Internals.pdb
 C:\User\Projects\Practice\Xamarin\CXF1\CXF1\CXF1.Android\obj\Debug\81\linksrc\System.Web.Services.pdb
 C:\User\Projects\Practice\Xamarin\CXF1\CXF1\CXF1.Android\obj\Debug\81\linksrc\Mono.Security.pdb
-C:\User\Projects\Practice\Xamarin\CXF1\CXF1\CXF1.Android\bin\Debug\CXF1.dll.mdb
 C:\User\Projects\Practice\Xamarin\CXF1\CXF1\CXF1.Android\obj\Debug\81\linksrc\CXF1.dll.mdb
 C:\User\Projects\Practice\Xamarin\CXF1\CXF1\CXF1.Android\obj\Debug\81\linksrc\WebAPIModels.dll.mdb
-C:\User\Projects\Practice\Xamarin\CXF1\CXF1\CXF1.Android\bin\Debug\WebAPIModels.dll.mdb
 C:\User\Projects\Practice\Xamarin\CXF1\CXF1\CXF1.Android\obj\Debug\81\android\assets\CXF1.dll.mdb
 C:\User\Projects\Practice\Xamarin\CXF1\CXF1\CXF1.Android\obj\Debug\81\android\assets\WebAPIModels.dll.mdb
 C:\User\Projects\Practice\Xamarin\CXF1\CXF1\CXF1.Android\obj\Debug\81\android\assets\CXF1.Android.pdb

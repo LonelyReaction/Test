@@ -27,7 +27,7 @@ namespace CXF1.Views
             this.lblMessage1.Text = list[0].ToString();
             this.lblMessage2.Text = list[1].ToString();
             this.lblMessage3.Text = list[2].ToString();
-            //PostList();
+            PostList();
         }
         public string DataText { get; set; }
         public static List<WebAPIClass> GetList()
@@ -44,13 +44,9 @@ namespace CXF1.Views
         {
             using (HttpClient client = new HttpClient())
             {
-                client.DefaultRequestHeaders.Accept.Add(new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"));
-                var content = new FormUrlEncodedContent(new Dictionary<string, string>
-                {
-                    { "id", "1" },
-                    { "content", "123" }
-                });
-                string queryString = $"http://192.168.3.191/WebService/api/Home/Post";
+                string sData = Newtonsoft.Json.JsonConvert.SerializeObject(new List<WebAPIClass> { new WebAPIClass(111), new WebAPIClass(222), new WebAPIClass(333) });
+                HttpContent content = new System.Net.Http.StringContent(sData, System.Text.Encoding.UTF8, "application/json");
+                string queryString = $"http://192.168.3.191/WebService/api/Home/Post/List";
                 var response = client.PostAsync(queryString, content).GetAwaiter().GetResult();
             }
         }
@@ -120,6 +116,18 @@ namespace CXF1.Views
     }
     public class WebAPIClass : WebAPIClassBaseModel
     {
+        public WebAPIClass(int id)
+        {
+            this.StringData = $"This is message from web service ({id * 2})";
+            this.IntData = id;
+            this.TimeData = DateTime.Now;
+        }
+        public WebAPIClass()
+        {
+            this.StringData = "This is message from web service (Get)";
+            this.IntData = 777;
+            this.TimeData = DateTime.Now;
+        }
         public override string ToString()
         {
             return $"This is NewType.\r\n{this.StringData}/{this.TimeData:yyyy/MM/dd HH:mm:ss}/{this.IntData}";

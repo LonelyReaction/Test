@@ -7,3 +7,14 @@ C:\User\Projects\Practice\Xamarin\CXF1\LogicTester\obj\Debug\LogicTester.csproj.
 C:\User\Projects\Practice\Xamarin\CXF1\LogicTester\obj\Debug\LogicTester.csproj.CoreCompileInputs.cache
 C:\User\Projects\Practice\Xamarin\CXF1\LogicTester\obj\Debug\LogicTester.exe
 C:\User\Projects\Practice\Xamarin\CXF1\LogicTester\obj\Debug\LogicTester.pdb
+C:\User\Projects\Practice\Xamarin\CXF1\LogicTester\bin\Debug\Newtonsoft.Json.dll
+C:\User\Projects\Practice\Xamarin\CXF1\LogicTester\bin\Debug\WebAPIModels.dll
+C:\User\Projects\Practice\Xamarin\CXF1\LogicTester\bin\Debug\WebAPIModels.pdb
+C:\User\Projects\Practice\Xamarin\CXF1\LogicTester\bin\Debug\Newtonsoft.Json.pdb
+C:\User\Projects\Practice\Xamarin\CXF1\LogicTester\bin\Debug\Newtonsoft.Json.xml
+C:\User\Projects\Practice\Xamarin\CXF1\LogicTester\obj\Debug\LogicTester.csprojAssemblyReference.cache
+C:\User\Projects\Practice\Xamarin\CXF1\LogicTester\obj\Debug\LogicTester.csproj.CopyComplete
+C:\User\Projects\Practice\Xamarin\CXF1\LogicTester\bin\Debug\System.Net.Http.Formatting.dll
+C:\User\Projects\Practice\Xamarin\CXF1\LogicTester\bin\Debug\System.Net.Http.Formatting.xml
+C:\User\Projects\Practice\Xamarin\CXF1\LogicTester\bin\Debug\ja\System.Net.Http.Formatting.resources.dll
+C:\User\Projects\Practice\Xamarin\CXF1\LogicTester\obj\Debug\LogicTester.exe.config

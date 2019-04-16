@@ -2,9 +2,11 @@
 using System.Web.Http;
 using System.Collections.Generic;
 using WebAPIModels;
+using System.Diagnostics;
 
 namespace WebAPI1.Controllers
 {
+    [Route("api/Home")]
     public class HomeController : ApiController
     {
         [HttpGet]
@@ -24,6 +26,22 @@ namespace WebAPI1.Controllers
         public List<WebAPIClass> GetList()
         {
             return new List<WebAPIClass> { new WebAPIClass(123), new WebAPIClass(456), new WebAPIClass(789) };
+        }
+        [HttpPost]
+        [Route("api/Home/Post")]
+        public System.Net.Http.HttpResponseMessage PostList([FromBody]Dictionary<string, string> list)
+        {
+            if (ModelState.IsValid)
+            {
+                string data = "";
+                foreach (var item in list)
+                {
+                    data += $"Key={item.Key}/Value={item.Value}\r\n";
+                }
+                //EventLog.WriteEntry("WebAPITester", data);
+                return new System.Net.Http.HttpResponseMessage(System.Net.HttpStatusCode.OK);
+            }
+            return new System.Net.Http.HttpResponseMessage(System.Net.HttpStatusCode.InternalServerError);
         }
     }
     public class WebAPIClass : WebAPIClassBaseModel

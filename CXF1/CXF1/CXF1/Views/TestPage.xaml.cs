@@ -27,6 +27,7 @@ namespace CXF1.Views
             this.lblMessage1.Text = list[0].ToString();
             this.lblMessage2.Text = list[1].ToString();
             this.lblMessage3.Text = list[2].ToString();
+            //PostList();
         }
         public string DataText { get; set; }
         public static List<WebAPIClass> GetList()
@@ -37,6 +38,20 @@ namespace CXF1.Views
                 var response = client.GetAsync(queryString).GetAwaiter().GetResult();
                 string jsonText = response.Content.ReadAsStringAsync().Result;
                 return JsonConvert.DeserializeObject<List<WebAPIClass>>(jsonText);
+            }
+        }
+        public static void PostList()
+        {
+            using (HttpClient client = new HttpClient())
+            {
+                client.DefaultRequestHeaders.Accept.Add(new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"));
+                var content = new FormUrlEncodedContent(new Dictionary<string, string>
+                {
+                    { "id", "1" },
+                    { "content", "123" }
+                });
+                string queryString = $"http://192.168.3.191/WebService/api/Home/Post";
+                var response = client.PostAsync(queryString, content).GetAwaiter().GetResult();
             }
         }
         public static string GetTest(int id1 = 0, int id2 = 0)
